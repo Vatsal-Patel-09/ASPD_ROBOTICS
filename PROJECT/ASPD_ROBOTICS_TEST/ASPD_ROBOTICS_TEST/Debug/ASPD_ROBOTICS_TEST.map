@@ -1,0 +1,494 @@
+Archive member included because of file (symbol)
+
+d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_udivmodhi4.o)
+                              lcd.o (__udivmodhi4)
+d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_divmodhi4.o)
+                              lcd.o (__divmodhi4)
+d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_exit.o)
+                              d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr6/crtm2560.o (exit)
+d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_copy_data.o)
+                              ASPD_ROBOTICS_TEST.o (__do_copy_data)
+d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_clear_bss.o)
+                              ASPD_ROBOTICS_TEST.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+million             0x2               lcd.o
+temp                0x2               lcd.o
+tens                0x2               lcd.o
+hundred             0x2               lcd.o
+unit                0x2               lcd.o
+thousand            0x2               lcd.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00100000         xr
+data             0x00800200         0x0000fe00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr6/crtm2560.o
+LOAD ASPD_ROBOTICS_TEST.o
+LOAD lcd.o
+START GROUP
+LOAD d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr6\libm.a
+END GROUP
+LOAD d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a
+LOAD d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr6\libc.a
+LOAD d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x7fc
+ *(.vectors)
+ .vectors       0x00000000       0xe4 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr6/crtm2560.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x000000e4                . = ALIGN (0x2)
+                0x000000e4                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000e4        0x0 linker stubs
+ *(.trampolines*)
+                0x000000e4                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000e4                __ctors_start = .
+ *(.ctors)
+                0x000000e4                __ctors_end = .
+                0x000000e4                __dtors_start = .
+ *(.dtors)
+                0x000000e4                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000e4        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr6/crtm2560.o
+                0x000000e4                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000e4       0x10 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr6/crtm2560.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000f4       0x1a d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_copy_data.o)
+                0x000000f4                __do_copy_data
+ .init4         0x0000010e       0x10 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_clear_bss.o)
+                0x0000010e                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000011e        0x8 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr6/crtm2560.o
+ *(.init9)
+ *(.text)
+ .text          0x00000126        0x4 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr6/crtm2560.o
+                0x00000126                __vector_38
+                0x00000126                __vector_22
+                0x00000126                __vector_28
+                0x00000126                __vector_1
+                0x00000126                __vector_32
+                0x00000126                __vector_34
+                0x00000126                __vector_24
+                0x00000126                __vector_12
+                0x00000126                __vector_55
+                0x00000126                __vector_46
+                0x00000126                __bad_interrupt
+                0x00000126                __vector_6
+                0x00000126                __vector_31
+                0x00000126                __vector_35
+                0x00000126                __vector_39
+                0x00000126                __vector_3
+                0x00000126                __vector_23
+                0x00000126                __vector_30
+                0x00000126                __vector_45
+                0x00000126                __vector_25
+                0x00000126                __vector_11
+                0x00000126                __vector_54
+                0x00000126                __vector_13
+                0x00000126                __vector_17
+                0x00000126                __vector_19
+                0x00000126                __vector_56
+                0x00000126                __vector_7
+                0x00000126                __vector_49
+                0x00000126                __vector_41
+                0x00000126                __vector_43
+                0x00000126                __vector_27
+                0x00000126                __vector_5
+                0x00000126                __vector_33
+                0x00000126                __vector_47
+                0x00000126                __vector_52
+                0x00000126                __vector_37
+                0x00000126                __vector_4
+                0x00000126                __vector_44
+                0x00000126                __vector_51
+                0x00000126                __vector_9
+                0x00000126                __vector_2
+                0x00000126                __vector_21
+                0x00000126                __vector_15
+                0x00000126                __vector_36
+                0x00000126                __vector_29
+                0x00000126                __vector_40
+                0x00000126                __vector_8
+                0x00000126                __vector_26
+                0x00000126                __vector_48
+                0x00000126                __vector_14
+                0x00000126                __vector_53
+                0x00000126                __vector_10
+                0x00000126                __vector_50
+                0x00000126                __vector_16
+                0x00000126                __vector_18
+                0x00000126                __vector_20
+                0x00000126                __vector_42
+ .text          0x0000012a      0x31c ASPD_ROBOTICS_TEST.o
+                0x0000012a                buzzer_on
+                0x0000012e                buzzer_off
+                0x00000134                buzzer_pin_config
+                0x0000013e                motion_pin_config
+                0x0000015e                timer5_init
+                0x00000196                velocity
+                0x000001a0                forward
+                0x000001a6                hard_left
+                0x000001ac                soft_left
+                0x000001b2                back
+                0x000001b8                stop
+                0x000001d0                init
+                0x000001e6                buzzer_start_stop
+                0x00000202                fast_lcd
+                0x0000021c                slow_lcd
+                0x00000236                main
+ .text          0x00000446      0x364 lcd.o
+                0x00000446                lcd_port_config
+                0x00000454                lcd_set_4bit
+                0x000004da                lcd_wr_command
+                0x00000524                lcd_init
+                0x00000552                lcd_home
+                0x0000055a                lcd_cursor
+                0x0000059a                lcd_clear
+                0x000005a2                lcd_wr_char
+                0x000005f6                lcd_string
+                0x0000062e                lcd_numeric_value
+ .text          0x000007aa        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_udivmodhi4.o)
+ .text          0x000007aa        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_divmodhi4.o)
+ .text          0x000007aa        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_exit.o)
+ .text          0x000007aa        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_copy_data.o)
+ .text          0x000007aa        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_clear_bss.o)
+                0x000007aa                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x000007aa       0x28 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_udivmodhi4.o)
+                0x000007aa                __udivmodhi4
+ .text.libgcc   0x000007d2       0x26 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_divmodhi4.o)
+                0x000007d2                _div
+                0x000007d2                __divmodhi4
+ .text.libgcc   0x000007f8        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_exit.o)
+ .text.libgcc   0x000007f8        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc   0x000007f8        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_clear_bss.o)
+                0x000007f8                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000007f8        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_exit.o)
+                0x000007f8                _exit
+                0x000007f8                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000007f8        0x4 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000007fc                _etext = .
+
+.data           0x00800200       0x38 load address 0x000007fc
+                0x00800200                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800200        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr6/crtm2560.o
+ .data          0x00800200       0x35 ASPD_ROBOTICS_TEST.o
+ .data          0x00800235        0x2 lcd.o
+ .data          0x00800237        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_udivmodhi4.o)
+ .data          0x00800237        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_divmodhi4.o)
+ .data          0x00800237        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_exit.o)
+ .data          0x00800237        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_copy_data.o)
+ .data          0x00800237        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_clear_bss.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800238                . = ALIGN (0x2)
+ *fill*         0x00800237        0x1 00
+                0x00800238                _edata = .
+                0x00800238                PROVIDE (__data_end, .)
+
+.bss            0x00800238        0xc
+                0x00800238                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800238        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr6/crtm2560.o
+ .bss           0x00800238        0x0 ASPD_ROBOTICS_TEST.o
+ .bss           0x00800238        0x0 lcd.o
+ .bss           0x00800238        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800238        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_divmodhi4.o)
+ .bss           0x00800238        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_exit.o)
+ .bss           0x00800238        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_copy_data.o)
+ .bss           0x00800238        0x0 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_clear_bss.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800238        0xc lcd.o
+                0x00800238                million
+                0x0080023a                temp
+                0x0080023c                tens
+                0x0080023e                hundred
+                0x00800240                unit
+                0x00800242                thousand
+                0x00800244                PROVIDE (__bss_end, .)
+                0x000007fc                __data_load_start = LOADADDR (.data)
+                0x00000834                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800244        0x0
+                0x00800244                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800244                PROVIDE (__noinit_end, .)
+                0x00800244                _end = .
+                0x00800244                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000      0x6e4
+ *(.stab)
+ .stab          0x00000000      0x6e4 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr6/crtm2560.o
+
+.stabstr        0x00000000       0x85
+ *(.stabstr)
+ .stabstr       0x00000000       0x85 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr6/crtm2560.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xe0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 ASPD_ROBOTICS_TEST.o
+ .debug_aranges
+                0x00000020       0x20 lcd.o
+ .debug_aranges
+                0x00000040       0x20 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_udivmodhi4.o)
+ .debug_aranges
+                0x00000060       0x20 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_divmodhi4.o)
+ .debug_aranges
+                0x00000080       0x20 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_exit.o)
+ .debug_aranges
+                0x000000a0       0x20 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x000000c0       0x20 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_clear_bss.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1086
+ *(.debug_info)
+ .debug_info    0x00000000      0x592 ASPD_ROBOTICS_TEST.o
+ .debug_info    0x00000592      0x6a3 lcd.o
+ .debug_info    0x00000c35       0xdd d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_udivmodhi4.o)
+ .debug_info    0x00000d12       0xdd d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_divmodhi4.o)
+ .debug_info    0x00000def       0xdd d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_exit.o)
+ .debug_info    0x00000ecc       0xdd d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_copy_data.o)
+ .debug_info    0x00000fa9       0xdd d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_clear_bss.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x335
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x159 ASPD_ROBOTICS_TEST.o
+ .debug_abbrev  0x00000159      0x178 lcd.o
+ .debug_abbrev  0x000002d1       0x14 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_udivmodhi4.o)
+ .debug_abbrev  0x000002e5       0x14 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_divmodhi4.o)
+ .debug_abbrev  0x000002f9       0x14 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_exit.o)
+ .debug_abbrev  0x0000030d       0x14 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_copy_data.o)
+ .debug_abbrev  0x00000321       0x14 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_clear_bss.o)
+
+.debug_line     0x00000000      0x82c
+ *(.debug_line)
+ .debug_line    0x00000000      0x288 ASPD_ROBOTICS_TEST.o
+ .debug_line    0x00000288      0x2c8 lcd.o
+ .debug_line    0x00000550       0x9a d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_udivmodhi4.o)
+ .debug_line    0x000005ea       0x99 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_divmodhi4.o)
+ .debug_line    0x00000683       0x88 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_exit.o)
+ .debug_line    0x0000070b       0x93 d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_copy_data.o)
+ .debug_line    0x0000079e       0x8e d:/studying stuff/aspd/robotics/atmel software/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr6\libgcc.a(_clear_bss.o)
+
+.debug_frame    0x00000000      0x210
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x120 ASPD_ROBOTICS_TEST.o
+ .debug_frame   0x00000120       0xf0 lcd.o
+
+.debug_str      0x00000000      0x288
+ *(.debug_str)
+ .debug_str     0x00000000      0x1b7 ASPD_ROBOTICS_TEST.o
+                                0x1f5 (size before relaxing)
+ .debug_str     0x000001b7       0xd1 lcd.o
+                                0x1f8 (size before relaxing)
+
+.debug_loc      0x00000000      0x3c9
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x67 ASPD_ROBOTICS_TEST.o
+ .debug_loc     0x00000067      0x362 lcd.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(ASPD_ROBOTICS_TEST.elf elf32-avr)
+LOAD linker stubs
