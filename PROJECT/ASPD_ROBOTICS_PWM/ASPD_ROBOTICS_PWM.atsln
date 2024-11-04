@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "ASPD_ROBOTICS_PWM", "ASPD_ROBOTICS_PWM\ASPD_ROBOTICS_PWM.cproj", "{2ACCA0DD-CF9F-4A1D-915A-7E8066F44559}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ACCA0DD-CF9F-4A1D-915A-7E8066F44559}.Debug|AVR.ActiveCfg = Debug|AVR
+		{2ACCA0DD-CF9F-4A1D-915A-7E8066F44559}.Debug|AVR.Build.0 = Debug|AVR
+		{2ACCA0DD-CF9F-4A1D-915A-7E8066F44559}.Release|AVR.ActiveCfg = Release|AVR
+		{2ACCA0DD-CF9F-4A1D-915A-7E8066F44559}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
